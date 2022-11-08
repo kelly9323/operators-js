@@ -1,15 +1,21 @@
-let number1 = 45;
-let number2 = 12;
-console.log(number1 + number2);
-console.log(number1 - number2);
-console.log(number1 * number2);
-console.log(number1 / number2);
+let number = 0;
+if (number >= 0) {
+  console.log("positive");
+} else {
+  console.log("negative");
+}
 
-let number = 456;
-number += 6;
-number++;
-number /= 2;
-number -= 3;
-number--;
-number %= 4;
-number += "qwerty";
+let num1 = 22;
+let num2 = 21;
+if (num1 > num2) {
+  console.log(num1 - num2);
+} else {
+  console.log(num1 * num2);
+}
+
+let variable = 15;
+if ((variable % 7 === 0) && (variable % 3 === 0)) {
+  console.log("you win");
+} else {
+  console.log("you loose");
+}
