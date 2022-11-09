@@ -1,5 +1,6 @@
 let number = 0;
-if (number >= 0) {
+let value = 0;
+if (number >= value) {
   console.log("positive");
 } else {
   console.log("negative");
@@ -14,7 +15,7 @@ if (num1 > num2) {
 }
 
 let variable = 15;
-if ((variable % 7 === 0) && (variable % 3 === 0)) {
+if (variable % 7 === 0 && variable % 3 === 0) {
   console.log("you win");
 } else {
   console.log("you loose");
